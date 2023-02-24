@@ -16,6 +16,11 @@ body {
     margin: auto;
 }
 
+.column-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Main Header */
 
 header {
@@ -42,6 +47,31 @@ header nav a {
     color: white;
     text-decoration: none;
 }
+
+main .first-column {
+    width: 75%;
+    background-color: red;
+}
+
+main .first-column #banner-image {
+    width: 100%;
+}
+
+main .first-column #column-text {
+    padding: 20px;
+}
+
+main .first-column p {
+    margin-top: 15px;
+}
+
+main .second-column {
+    width: 20%;
+    background-color: red;
+}
+
+
+
 
 /* h2 {
     border: 2px solid red;
